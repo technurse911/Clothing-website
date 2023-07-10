@@ -1,0 +1,60 @@
+
+ #sale-end{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+
+.fa-cc-visa,
+.fa-cc-amex{
+    color: deepskyblue;
+}
+.fa-cc-mastercard{
+    background-color: darkslateblue;
+}
+
+.fa-cc-paypal{
+    color: rgb(76, 163, 251);
+}
+
+.container{
+    position: relative; 
+    z-index: -1;
+  
+}
+
+.overlay{
+    position: absolute;
+    bottom: 60%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: auto;
+    height: 0;
+    transition: .3s ease;
+    
+}
+
+.container:hover .overlay {
+    left: 10px;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    height: 100%;}
+
+.hey{
+    text-align: center;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
