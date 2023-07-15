@@ -120,8 +120,6 @@ color: rgb(231, 125, 125);
     justify-content: center;
 }
 
-
-
 /* RESPONSIVENESS */
 @media (max-width: 768px){
     .navbar .links,

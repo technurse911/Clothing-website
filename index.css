@@ -26,7 +26,6 @@
 .container{
     position: relative; 
     z-index: -1;
-  
 }
 
 .overlay{
@@ -37,7 +36,7 @@
     overflow: hidden;
     width: auto;
     height: 0;
-    transition: .3s ease;
+    transition: .2s ease;
     
 }
 
