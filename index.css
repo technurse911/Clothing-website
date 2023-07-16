@@ -23,37 +23,42 @@
     color: rgb(76, 163, 251);
 }
 
-.container{
-    position: relative; 
+.images2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     z-index: -1;
 }
 
-.overlay{
-    position: absolute;
-    bottom: 60%;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    width: auto;
-    height: 0;
-    transition: .2s ease;
-    
+.box1, .box2, .box3, .box4, .boxii{
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    background-color: white;
 }
 
-.container:hover .overlay {
-    left: 10px;
-    right: 10px;
-    top: 0;
-    bottom: 0;
-    height: 100%;}
-
-.hey{
-    text-align: center;
+.boxii{
+    display: none;
 }
 
-img{
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
+/* RESPONSIVENESS */
+
+
+@media (max-width: 1000px){
+   
+.box1, .box2, .box3, .box4, .boxii{
+    height: 260px;
+    width: 300px;
+    object-fit: contain;
+    background-color: white;
+    align-items: center;
+   
+} }
+
+
+
+
 
 
