@@ -37,7 +37,7 @@
                 <li  ><a href="sales">SALES</a></li>
                 <li  ><a href="contact">CONTACT</a></li>
             </ul>
-            <a href="#" class="action_btn">Hello</a>
+            <a href="#" class="action_btn">LOGO</a>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars fa-lg"></i>
             </div>
@@ -50,7 +50,7 @@
                 <li  ><a href="clothings">CLOTHING</a></li>
                 <li  ><a href="sales">SALES</a></li>
                 <li  ><a href="contact">CONTACT</a></li>
-                <li> <a href="#" class="action_btn">Hello</a></li>
+                <li> <a href="#" class="action_btn">LOGO</a></li>
             </div>     
     </header>
 
@@ -257,13 +257,13 @@
 
 $("document").ready(function(){
 
-   $(".box1").mouseover(function(){
+   $(".box1").mouseenter(function(){
     $(".box1").css('display', 'none')
     $(".boxii").fadeIn( 1500)
     $(".pbox").css('display', 'none')
    })
 
-   $(".boxii").mouseleave(function(){
+   $(".boxii").mouseout(function(){
     $(".boxii").css('display','none' )
     $(".box1").fadeIn(1500)
     $(".pbox").show('fast')
